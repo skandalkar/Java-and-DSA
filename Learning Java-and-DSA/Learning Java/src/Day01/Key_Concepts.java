@@ -34,5 +34,80 @@ public class Key_Concepts
              ii) Multi-line comments
         */
 
+        System.out.println("\n\n");
+        /** Operators in Java
+         * 1. Arithmetic operators (+, -, *, /, %)
+         * 2. Assignment Operators (=, +=, -=, *=, /=, %=)
+         * 3. Comparision  operators (<, >, <=, =>, !=, ==)
+         * 4. Increment-Decrement Operator (++var_name, var_name++, --var_name, var_name--)
+         * 5. Logical operators (&&, ||, !)
+         * 6. Ternary Operator ( ? : ;)
+         * /***************************************/
+         
+
+        // Arithmetic operators
+        int n1 = 10, n2 = 15;
+        System.out.println("Addition: "+(n1+n2));
+        System.out.println("Subtraction: "+(n1-n2));
+        System.out.println("Multiplication: "+(n1*n2));
+        System.out.println("Quotient (Division): "+(n1/n2));
+        System.out.println("Remainder (Division): "+(n1%n2));
+
+        // Assignment Operators
+        int num1 = 10, num2;
+        num2 = num1; //assigned to other variable
+        System.out.println("num1 : "+num1);
+        System.out.println("num2 : "+num2);
+
+        System.out.println("\n");
+
+        // Comparision  operators
+        int val1 = 10, val2 = 20;
+        System.out.println((val1>val2)); // false
+        System.out.println((val1<val2)); // true
+        System.out.println((val1>=val2)); // false
+        System.out.println((val1<=val2)); // true
+        System.out.println((val1==val2)); // false
+        System.out.println((val1!=val2)); // true
+
+
+        // Increment-Decrement Operator
+        int number1 = 5;
+        System.out.println(number1);
+        System.out.println(++number1); // pre-inc
+        System.out.println(number1++); // post-inc // 6
+
+        int number2 = 10;
+        System.out.println(number2);
+        System.out.println(--number2); // pre-dec
+        System.out.println(number2--); // post-dec // 9
+
+
+
+        // Logical operators
+        int var = 155, var2 = 177, var3 = 166;
+        if (var > var2 && var < var3 )  //false
+        {
+            System.out.println("false");
+        }
+
+        if (var > var2 || var < var3 ) //true
+        {
+            System.out.println("true");
+        }
+
+        if (var != var2) // true
+        {
+            System.out.println("Neutral");
+        }
+
+
+        System.out.println("\n\n");
+
+
+        // Ternary Operator ( ? : ;)
+
+        int max = (15 > 10? 15 : 10);
+        System.out.println("Greater value : "+max);
     }
 }
