@@ -43,7 +43,7 @@ public class Key_Concepts
          * 5. Logical operators (&&, ||, !)
          * 6. Ternary Operator ( ? : ;)
          * /***************************************/
-         
+
 
         // Arithmetic operators
         int n1 = 10, n2 = 15;
